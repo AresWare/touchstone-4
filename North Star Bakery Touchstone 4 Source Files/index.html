@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North Star Bakery - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="site-header">
+        <a class="brand" href="index.html"><img src="images/bakery-logo_c.png" alt="North Star Bakery home" width="100" height="100"></a>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="nav-contact" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+      <div class="hero">
+        <div class="hero-copy">
+        <p class="eyebrow">Bread. Pastries. A warm welcome.</p>
+        <h1>Welcome to North Star Bakery</h1>
+
+        <p>Good bread. Simple pleasures. Discover artisan loaves, something sweet, and a little warmth for your everyday table.</p>
+        <div class="actions"><a class="button" href="products.html">Explore our baking</a><a href="about.html">Meet the bakery</a></div>
+        </div>
+        <figure>
+          <img src="images/bakery-signature-loaf_c.png" alt="A golden, flour-dusted artisan loaf wrapped in a checked linen towel">
+          <figcaption>A crisp crust, a simple loaf, a reason to gather.</figcaption>
+        </figure>
+      </div>
+
+        <section class="section split">
+          <div class="split-copy">
+            <p class="eyebrow">Your neighborhood bakery</p>
+            <h2>Visit Our Storefront</h2>
+            <p>Whether you are choosing a loaf for dinner or a treat to share, there is something comforting about a bakery window full of possibilities.</p>
+            <a href="about.html">A little more about us</a>
+          </div>
+            <img src="images/bakery-storefront_c.png" alt="Dark blue bakery storefront with breads and pastries arranged in the window" loading="lazy">
+        </section>
+
+        <section class="section split">
+          <div class="split-copy">
+            <p class="eyebrow">Something sweet</p>
+            <h2>Featured Treats</h2>
+            <p>A glimpse of what's baking at North Star Bakery. Our pastry counter is always stocked with something delicious.</p>
+            <a href="products.html">Find your next favorite</a>
+          </div>
+            <picture>
+                <source media="(min-width: 800px)" srcset="images/bakery-feature-large_c.png">
+                <source media="(max-width: 799px)" srcset="images/bakery-feature-small_c.png">
+                <img src="images/bakery-feature-small_c.png" alt="An assortment of artisan cookies and pastries displayed on wooden trays inside the North Star Bakery pastry counter, including chocolate chip cookies, sandwich cookies, and glazed rolls">
+            </picture>
+        </section>
+
+        <section class="section split">
+          <div>
+            <h2>What We Offer</h2>
+            <ul class="offer-list">
+                <li>Fresh sourdough and country breads baked daily</li>
+                <li>Artisan cookies and seasonal pastries</li>
+                <li>Custom bread orders for special occasions</li>
+                <li>Catering for local events and gatherings</li>
+            </ul>
+          </div>
+          <div class="welcome">
+            <h2>Hear Our Welcome Message</h2>
+            <p>Take a moment to listen to the bakery's welcome recording.</p>
+            <audio controls preload="metadata" aria-label="North Star Bakery welcome recording">
+                <source src="images/bakery-welcome_c.mp3" type="audio/mpeg">
+                Your browser does not support embedded audio.
+                <a href="images/bakery-welcome_c.mp3">Open the bakery welcome audio file.</a>
+            </audio>
+            <p class="small-note"><a href="images/bakery-welcome_c.mp3">Open the welcome audio file</a></p>
+          </div>
+        </section>
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <div><p class="footer-name">North Star Bakery</p><p class="footer-note">&copy; 2026 North Star Bakery · Coursework website</p></div>
+        <nav aria-label="Footer navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+      </div>
+    </footer>
+</body>
+</html>
